@@ -20,7 +20,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>2655,1513</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1102,1513</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>proc_Open_Browser_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -152,7 +152,7 @@
                     <uix:NTypeInto.Target>
                       <uix:TargetAnchorable BrowserURL="https://www.ezhishi.net/Contents/" DesignTimeRectangle="302, 808, 343, 52" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'INPUT txt_name'" FullSelectorArgument="&lt;webctrl id='txt_name' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='txt_name' tag='INPUT' type='text' class='txt_loginid' aaname='' /&gt;" Guid="79057b93-c97a-42a6-8efe-10df302c4120" InformativeScreenshot="03b2d4ad2b347fc9576023bef51abb3b.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='eZhishi: Online Interactive Teaching &amp;amp; Learning, Question Bank &amp;amp; LMS' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
                         <uix:TargetAnchorable.Anchors>
-                          <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                             <uix:Target DesignTimeRectangle="309, 767, 222, 32" ElementType="Text" FriendlyName="'User Login 用户登录'" FullSelectorArgument="&lt;webctrl parentid='login' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='login' tag='A' type='' class='' aaname='User Login 用户登录' check:innerText='User Login 用户登录' /&gt;" SearchSteps="FuzzySelector" />
                           </scg:List>
                         </uix:TargetAnchorable.Anchors>
@@ -163,7 +163,7 @@
                     <uix:NTypeInto.Target>
                       <uix:TargetAnchorable BrowserURL="https://www.ezhishi.net/Contents/" DesignTimeRectangle="660, 808, 187, 52" DesignTimeScaleFactor="1" ElementType="InputBoxPassword" FriendlyName="'INPUT txt_password'" FullSelectorArgument="&lt;webctrl id='txt_password' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='txt_password' tag='INPUT' type='password' class='txt_password' aaname='' /&gt;" Guid="dcf60d6b-d5cd-4f4b-8348-271234dc5ad2" InformativeScreenshot="bc46a6b1c6af627e90ba1c55e470cbff.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='eZhishi: Online Interactive Teaching &amp;amp; Learning, Question Bank &amp;amp; LMS' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
                         <uix:TargetAnchorable.Anchors>
-                          <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                             <uix:Target DesignTimeRectangle="863, 808, 110, 50" ElementType="Button" FriendlyName="'登录 Login'" FullSelectorArgument="&lt;webctrl id='btn_login' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl id='btn_login' tag='BUTTON' type='button' class='txt_login' aaname='                 登录 Login               ' check:innerText='登录 Login' /&gt;" SearchSteps="FuzzySelector" />
                           </scg:List>
                         </uix:TargetAnchorable.Anchors>
@@ -187,7 +187,7 @@
                   <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="proc_Telegram_API - Send message.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="388,113" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_2" UnSafe="False" WorkflowFileName="proc_Telegram_API - Send message.xaml">
                     <ui:InvokeWorkflowFile.Arguments>
                       <InArgument x:TypeArguments="x:String" x:Key="in_TelegramMessageToSend">
-                        <Literal x:TypeArguments="x:String">Ezhishi page not available</Literal>
+                        <Literal x:TypeArguments="x:String">Ezhishi page *not available*</Literal>
                       </InArgument>
                       <InArgument x:TypeArguments="ss:SecureString" x:Key="in_api">
                         <VisualBasicValue x:TypeArguments="ss:SecureString" ExpressionText="in_api" />
