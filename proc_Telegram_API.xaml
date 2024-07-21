@@ -6,7 +6,7 @@
     <x:Property Name="out_kc_username" Type="OutArgument(x:String)" />
     <x:Property Name="out_kc_pw" Type="OutArgument(ss:SecureString)" />
   </x:Members>
-  <sap:VirtualizedContainerService.HintSize>933,1477</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>2655,1477</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
